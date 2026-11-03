@@ -17,26 +17,26 @@ var GAMES = [
 
 var PROMPTS = {
   "truth-or-dare":{
-    soft:{truth:["What's the worst haircut you ever paid for?","Which of your group chats would ruin you first?","What's a compliment you still think about?","What did you pretend to understand all through school?"],
-          dare:["Text the fifth person in your recents a single word.","Let the group pick your next profile photo.","Do your best impression of whoever is on your left.","Read your last three searches out loud."]},
-    hot:{truth:["Who in this room have you looked up online this month?","What's the pettiest reason you ended something?","Whose message did you leave on read on purpose?","What have you never admitted to the person it was about?"],
-         dare:["Read out your last sent message in a newsreader voice.","Let someone else type your next reply.","Swap phones with the person on your right for one round.","Call the last number you blocked. You may hang up."]}
+    soft:{truth:["What's the worst haircut you ever paid for?","Which of your group chats would ruin you first?","What's a compliment you still think about?","What did you pretend to understand all through school?","What's the pettiest thing you've ever held a grudge about?","Which of your habits would you hate in someone else?"],
+          dare:["Text the fifth person in your recents a single word.","Let the group pick your next profile photo.","Do your best impression of whoever is on your left.","Let the person on your right choose your next three songs.","Say something nice about everyone here, in one breath.","Show the group your most recent photo, no context."]},
+    hot:{truth:["Who in this room would you say yes to?","What's the most adventurous place you've done it?","What have you wanted to ask for in bed and never have?","Who were you thinking about the last time you shouldn't have been?","Have you ever faked it, and did they notice?","What's the worst thing you've done to someone who liked you?","Who did you tell the group you were over, and weren't?","What's the longest you've kept someone a secret?","Who here would you least want reading your messages, and why?","What's your actual type, and how badly does it contradict your last choice?","What's the closest you've come to being caught?","Which of your exes would you still answer at 2am?","What did you do that you'd deny in front of the person it involved?","What's the pettiest reason you ever ended things?","Who in this room have you pictured more than once?","What's the most you've lied to get someone into bed?","What's the one thing you've never admitted to a partner?","Who's the last person you let get away with too much?"],
+         dare:["Rank everyone here by who you'd pick, and say the top one out loud.","Read your last sent message in the voice you'd use in bed.","Describe your type while looking directly at the person closest to it.","Whisper your most recent search to the person on your left.","Let the group read your last three messages out loud.","Say the name you almost said last time, out loud.","Let the person on your right type one reply from your phone.","Give the person on your left a thirty-second shoulder rub, no talking.","Tell the person opposite the first thing you noticed about them.","Hold eye contact with someone here for thirty seconds without speaking.","Let the group decide which of your photos gets deleted.","Say out loud what you were hoping would happen tonight."]}
   },
   "never-have-i":{
-    soft:["cried at an advert","stayed in a group chat I muted two years ago","pretended to know a song everyone else knew","gone to a party and left before saying hello","lied about having seen a film"],
-    hot:["deleted a photo before anyone else woke up","gone back to someone I told the group I was done with","read a conversation I was never part of","lied about where I was to get out of something","let someone believe something I knew was wrong"]
+    soft:["cried at an advert","stayed in a group chat I muted two years ago","pretended to know a song everyone else knew","gone to a party and left before saying hello","lied about having seen a film","googled someone before meeting them"],
+    hot:["had a one night stand","slept with someone in this room","nearly been caught in the act","wanted a friend's partner","sent a photo that could ruin me","lied about being single","done it somewhere I could have been caught","been somebody's secret","gone back for one more night after saying never again","kept a profile live while seeing someone","said the wrong name","done something I'd deny to their face","hooked up with someone and never learned their name","regretted it before it was over"]
   },
   "most-likely":{
-    soft:["lose their phone twice in one night","become weirdly good at a niche hobby","start a group chat nobody asked for","still be awake at 5am talking about nothing","cry at their own birthday"],
-    hot:["get caught in the lie first","text the one person they shouldn't","change their whole life on a bad week","be the reason the night ends early","read this and know it's about them"]
+    soft:["lose their phone twice in one night","become weirdly good at a niche hobby","start a group chat nobody asked for","still be awake at 5am talking about nothing","cry at their own birthday","reply to a message three weeks late"],
+    hot:["sleep with someone in this room tonight","get caught sexting at work","be back with their ex before the month is out","have an account nobody here knows about","say the wrong name at the worst moment","text first and regret it by morning","kiss someone here just to see what happens","be the reason two people here stop speaking","leave with someone they only just met","read this and know it's about them"]
   },
   "would-you":{
     soft:[["Lose every photo you've ever taken","Lose every message you've ever sent"],["Never hear a new song again","Never see a new film again"],["Always be forty minutes early","Always be ten minutes late"],["Know exactly when you'll die","Know exactly how"]],
-    hot:[["Have your search history read out","Have your voice notes played back"],["Know what everyone here really thinks of you","Have them know what you think of them"],["Delete one relationship from your past","Keep it and relive its worst week"],["Be forgiven for everything","Be remembered for everything"]]
+    hot:[["Have every message you've sent read aloud","Have every photo on your phone shown"],["Know who in this room wants you","Have them know you want them"],["Sleep with someone here once and never speak again","Never, and stay close forever"],["Be caught by your parents","Be caught by your boss"],["Have your ex describe you in bed","Have your last partner rate you out of ten"],["Be forgiven for everything","Be remembered for everything"],["Only ever again with your first","Only ever again with a stranger"],["Have your search history read out","Have your voice notes played back"]]
   },
   "rate-them":{
     soft:["They're a 10 but they reply to every message with one word","They're a 10 but they arrive forty minutes late and bring nothing","They're a 10 but their playlist is three songs on loop","They're a 10 but they narrate every film while you watch it","They're a 10 but they've never once chosen the restaurant"],
-    hot:["They're a 10 but they still have their ex's photos up","They're a 10 but they screenshot every conversation","They're a 10 but they argue with strangers online at 2am","They're a 10 but they've told your secret to one person","They're a 10 but they check your phone while you shower"]
+    hot:["They're a 10 but they talk the whole way through","They're a 10 but they won't return the favour","They're a 10 but they still have their ex's photos up","They're a 10 but they screenshot every conversation","They're a 10 but they finish in ninety seconds","They're a 10 but they've slept with your closest friend","They're a 10 but they check your phone while you shower","They're a 10 but they keep the dating apps installed","They're a 10 but they've never once said what they want","They're a 10 but they call you by the wrong name and don't notice","They're a 10 but they tell their group chat everything","They're a 10 but they'd leave if someone better texted"]
   }
 };
 
@@ -118,6 +118,25 @@ function promptSet(slug, mode){
 function esc(s){ return String(s).replace(/[&<>"]/g, function(c){
   return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c]; }); }
 function pick(a){ return a[Math.floor(Math.random()*a.length)]; }
+
+/* Shuffle bags. A fresh random pick repeats within a ten-round session often
+   enough to be noticed, so each prompt list gets its own bag: shuffled once
+   with Fisher-Yates, drawn down to empty, then reshuffled. No card repeats
+   until every other card in that list has been seen. */
+var BAGS = {};
+function draw(key, items){
+  if(!items || !items.length) return "";
+  var bag = BAGS[key];
+  if(!bag || !bag.length){
+    bag = items.slice();
+    for(var i = bag.length - 1; i > 0; i--){
+      var j = Math.floor(Math.random() * (i + 1));
+      var t = bag[i]; bag[i] = bag[j]; bag[j] = t;
+    }
+    BAGS[key] = bag;
+  }
+  return bag.pop();
+}
 function wash(rgb){ document.documentElement.style.setProperty("--wash", rgb); }
 function playing(on){ document.body.classList.toggle("playing", !!on); if(on) window.scrollTo(0,0); }
 
@@ -135,7 +154,7 @@ function renderGate(){
     +   '</button>'
     +   '<button class="panel hot" data-age="adult">'
     +     '<span class="big">18 or over</span>'
-    +     '<span class="sub">Everything unlocked, Hot mode included.</span>'
+    +     '<span class="sub">Unlocks Hot \u2014 explicit, sexual, no filter.</span>'
     +   '</button>'
     + '</div>'
     + '<div class="orbadge"><i>or</i></div>'
@@ -230,7 +249,7 @@ function renderModePick(){
     +     '<span class="ico">🔥</span>'
     +     '<span class="big">Hot</span>'
     +     (minor ? '<span class="lock">18+ only</span>'
-              : '<span class="sub">Spicy. Only for a group that can take it.</span>')
+              : '<span class="sub">Explicit. Sexual. Nothing held back.</span>')
     +   '</button>'
     + '</div>'
     + '<div class="orbadge"><i>or</i></div>'
@@ -261,7 +280,7 @@ function roundHud(){
 
 /* one sentence, nothing else */
 function renderSingle(){
-  var text = pick(promptSet(S.game.slug, S.mode));
+  var text = draw(S.game.slug + "|" + S.mode, promptSet(S.game.slug, S.mode));
   paint(
       '<div class="solo">'
     +   '<p class="eyebrow anim-up">'+esc(S.game.stem || S.game.name)+'</p>'
@@ -288,7 +307,7 @@ function renderPick2(){
 }
 
 function revealPick2(t){
-  var text = pick(promptSet("truth-or-dare", S.mode)[t]);
+  var text = draw("tod|" + S.mode + "|" + t, promptSet("truth-or-dare", S.mode)[t]);
   paint(
       '<div class="solo">'
     +   '<p class="eyebrow anim-up">'+t+'</p>'
@@ -305,7 +324,7 @@ function revealPick2(t){
 
 /* would you rather: the choice itself fills both halves */
 function renderAB(){
-  var pair = pick(promptSet("would-you", S.mode));
+  var pair = draw("wyr|" + S.mode, promptSet("would-you", S.mode));
   paint(
       '<div class="split anim-fade">'
     +   '<button class="panel dark" data-i="0"><span class="big phrase">'+esc(pair[0])+'</span></button>'
@@ -322,7 +341,7 @@ function renderAB(){
 function rateColor(n){ return "hsl(" + ((n-1)/9*112).toFixed(0) + " 74% 58%)"; }
 
 function renderRate(){
-  var text = pick(promptSet("rate-them", S.mode));
+  var text = draw("rate|" + S.mode, promptSet("rate-them", S.mode));
   var btns = "";
   for(var n = 1; n <= 10; n++){
     btns += '<button class="rate" style="background:'+rateColor(n)+';animation-delay:'+(0.12 + n*0.025).toFixed(3)+'s" data-n="'+n+'">'+n+'</button>';

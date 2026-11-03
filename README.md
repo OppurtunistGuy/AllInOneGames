@@ -38,12 +38,12 @@ npx vercel@latest --prod
 
 ## Before it goes public
 
-1. **Replace `CHANGE-ME.example`** in `index.html`, `robots.txt` and `sitemap.xml`
-   with your real domain. Four places in `index.html` (canonical, `og:url`, `og:image`)
-   — grep for it.
-2. **Fill in the placeholders in `privacy.html`.** The contact address and operating
-   entity are legally required in the EU and UK; an unfinished privacy page is worse
-   than none.
+1. **Add the canonical and Open Graph tags** once you have a domain: `canonical`,
+   `og:url`, `og:image`. They were removed rather than left pointing at a placeholder
+   domain, because a wrong canonical is worse than a missing one.
+2. **Publish a contact address in `privacy.html`** and switch `robots.txt` back to
+   `Allow: /`. The contact address and operating entity are legally required in the
+   EU and UK, and Hot mode's content makes this page matter more, not less.
 3. **Make `og.png`** at 1200×630 and drop it at the root. Without it, every share
    looks like a dead link.
 4. **Make `icon-180.png`, `icon-192.png`, `icon-512.png`** from `icon.svg`.
