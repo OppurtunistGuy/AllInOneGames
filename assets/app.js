@@ -18,25 +18,26 @@ var GAMES = [
 var PROMPTS = {
   "truth-or-dare":{
     soft:{truth:["What's the worst haircut you ever paid for?","Which of your group chats would ruin you first?","What's a compliment you still think about?","What did you pretend to understand all through school?","What's the pettiest thing you've ever held a grudge about?","Which of your habits would you hate in someone else?"],
-          dare:["Text the fifth person in your recents a single word.","Let the group pick your next profile photo.","Do your best impression of whoever is on your left.","Let the person on your right choose your next three songs.","Say something nice about everyone here, in one breath.","Show the group your most recent photo, no context."]},
-    hot:{truth:["Who in this room would you say yes to?","What's the most adventurous place you've done it?","What have you wanted to ask for in bed and never have?","Who were you thinking about the last time you shouldn't have been?","Have you ever faked it, and did they notice?","What's the worst thing you've done to someone who liked you?","Who did you tell the group you were over, and weren't?","What's the longest you've kept someone a secret?","Who here would you least want reading your messages, and why?","What's your actual type, and how badly does it contradict your last choice?","What's the closest you've come to being caught?","Which of your exes would you still answer at 2am?","What did you do that you'd deny in front of the person it involved?","What's the pettiest reason you ever ended things?","Who in this room have you pictured more than once?","What's the most you've lied to get someone into bed?","What's the one thing you've never admitted to a partner?","Who's the last person you let get away with too much?"],
-         dare:["Rank everyone here by who you'd pick, and say the top one out loud.","Read your last sent message in the voice you'd use in bed.","Describe your type while looking directly at the person closest to it.","Whisper your most recent search to the person on your left.","Let the group read your last three messages out loud.","Say the name you almost said last time, out loud.","Let the person on your right type one reply from your phone.","Give the person on your left a thirty-second shoulder rub, no talking.","Tell the person opposite the first thing you noticed about them.","Hold eye contact with someone here for thirty seconds without speaking.","Let the group decide which of your photos gets deleted.","Say out loud what you were hoping would happen tonight."]}
+          dare:["Text the fifth person in your recents a single word.","Let the group pick your next profile photo.","Do your best impression of whoever is on your left.","Let the person on your right choose your next three songs.","Say something nice about everyone here, in one breath.","Show the group your most recent photo, no context."],
+          dareOnline:["Text the fifth person in your recents a single word.","Let the group pick your next profile photo.","Do your best impression of whoever went last.","Change your display name to whatever the group decides.","Say something nice about everyone on this call, in one breath.","Turn your camera to the messiest corner of your room."]},
+    hot:{truth:["Who in this room would you sleep with tonight if nobody ever found out?","What's the worst sex you've ever had, and did you tell them?","What do you want in bed that you've never once asked for?","Who was the last person you thought about while you were alone?","What's the strangest place you've ever got yourself off?","Have you ever stopped halfway? Why?","What's the loudest you've ever been, and who heard it?","What's the biggest lie you've told about your number?","Who in this room do you reckon is best in bed, and who's worst?","What's the worst thing you've said in bed by accident?","Have you ever finished and immediately regretted who you were with?","What are you into that you'd never put in writing?","Who's the most recent person you sent a nude to?","What's the most physically risky place you've done it?","Have you ever slept with someone to get back at someone else?","What's the one thing a partner did that you still think about?","Who here do you think lies the most about their sex life?","Who would you let watch?","What's the longest you've kept someone a secret, and from who?","How many people have you been with in one week?","What's the one thing you'd change about your last partner?","Have you ever said the wrong name? What happened next?","Who in this room have you already pictured it with?","What's the filthiest thing you've ever said out loud?","Dom, sub or switch \u2014 and when did you work it out?","What's your safeword, and have you ever actually had to use it?","Have you ever been tied up? Better or worse than you expected?","Blindfold or restraints \u2014 which one does more for you?","What's your hard limit, the thing that is never happening?","What are you curious about but have never asked anyone for?","Who in this room do you read as a dom, and who as a sub?","Have you ever been told what to do and liked it more than you'd admit?","Collar, cuffs or rope?","What's the most you've ever been marked, and how did you explain it?","Have you ever subbed for someone you outrank in real life?","What's the kinkiest thing in your search history right now?","Who in here would you hand control to for a whole night?","Have you ever been edged? How long did you last?","What's the one instruction you'd follow without question, and from who?","Have you ever used a toy on someone else \u2014 whose idea was it?","What do you want that you've only ever typed and never said out loud?","What's the thing just inside your limit that you'd still say yes to?","Have you ever had aftercare, and did you know that's what it was?","What's something you're into that would genuinely surprise everyone here?","Who's the last person you asked permission from, and what for?"],
+         dare:["Kiss the person on your left. Five seconds. The group counts.","Take off one item of clothing. The group chooses which.","Sit on the lap of whoever you'd pick in here, until your next turn.","Whisper the filthiest thing you can think of to the person on your right. They rate it out of ten.","Describe exactly what you'd do to the person opposite you. Thirty seconds, no stopping.","The group picks someone. Kiss their neck for ten seconds.","Make the noise you make. Everyone is listening.","Let the person opposite you put your hands wherever they like for one minute.","Demonstrate your best move on a cushion. Full commitment.","Say who in this room you'd pick first, second and third. In order, out loud.","Swap one item of clothing with the person on your right.","Take a drink off someone's collarbone.","Let whoever you'd pick blindfold you for the next two rounds.","Give the person on your left thirty seconds, anywhere they ask.","Hold eye contact with the person you want most in here. Thirty seconds, no talking.","Tell the group the one thing you'd want done to you tonight.","Read the last message you sent out loud, then say what you actually meant by it.","Let the person on your right pick your next dare. You can't refuse it.","Say 'I'd pick you' to the person opposite. No explanation, no laughing.","Let the person on your left unlock your phone and read one thread out loud.","Name your safeword to the group. Say it like you mean it.","Tell the person opposite exactly what you'd want them to do to you. Spare no detail.","Pick a dom in this room. They give you one command for the next round. You get one veto.","Ask the person on your left for permission to kiss their neck. If they say no, you drink.","Kneel in front of whoever you'd pick. They decide when you get up.","Let someone here bind your wrists with whatever is nearest. You say when it stops.","Blindfold yourself for two rounds. Anyone may speak to you. Nobody touches.","Describe your ideal scene, start to finish, to the person you'd want in it.","Give the person on your right one instruction. They choose whether to follow it.","Hand your phone to whoever you'd give control to. They set one rule for the rest of the game.","Tell the group your hard limit, then the thing sitting just inside it.","Whisper an instruction to the person on your right. They tell the group whether they'd follow it.","Let the person opposite choose: your hands behind your back for one round, or you answer anything they ask.","Ask permission before every turn you take for the rest of the game. Out loud, every time."],dareOnline:["Unmute and say the last thing you searched, out loud.","Show the group the last photo in your camera roll. No scrolling first.","Type the filthiest thing you can think of in the chat. No deleting it.","Looking straight down the camera, say which person on this call you\u2019d pick.","Unmute and make the noise you make. Everyone is listening.","Describe on camera exactly what you\u2019d do to whoever you\u2019d pick on this call.","Send your most recent selfie to the chat. Unedited.","Hold eye contact with the camera for thirty seconds while everyone watches.","Tell the group your safeword, straight into the mic.","Let the group choose a number. Open your camera roll and show that photo.","Whisper what you want done to you. Make them turn the volume up.","Pick a dom on this call. They give you one instruction for the next round. One veto.","Type your hard limit in the chat, then the thing sitting just inside it.","Camera off for one round. The group may ask you anything.","Change your display name to the name you almost said last time.","Let whoever went last choose one item of clothing you take off on camera.","Read your last sent message out loud, in full, then say what you meant by it.","Hand control of your next three turns to someone on this call. They decide, you comply."]}
   },
   "never-have-i":{
     soft:["cried at an advert","stayed in a group chat I muted two years ago","pretended to know a song everyone else knew","gone to a party and left before saying hello","lied about having seen a film","googled someone before meeting them"],
-    hot:["had a one night stand","slept with someone in this room","nearly been caught in the act","wanted a friend's partner","sent a photo that could ruin me","lied about being single","done it somewhere I could have been caught","been somebody's secret","gone back for one more night after saying never again","kept a profile live while seeing someone","said the wrong name","done something I'd deny to their face","hooked up with someone and never learned their name","regretted it before it was over"]
+    hot:["slept with someone in this room","had a one night stand","had sex in a car","had a threesome","been walked in on","sent a nude to the wrong person","faked it start to finish","had sex somewhere public","slept with someone whose name I never got","used a toy with someone else","slept with a friend's ex","filmed it","had sex on a first date","cheated and never told anyone","been somebody's secret","paid for it","said the wrong name","wanted someone in this room"]
   },
   "most-likely":{
     soft:["lose their phone twice in one night","become weirdly good at a niche hobby","start a group chat nobody asked for","still be awake at 5am talking about nothing","cry at their own birthday","reply to a message three weeks late"],
-    hot:["sleep with someone in this room tonight","get caught sexting at work","be back with their ex before the month is out","have an account nobody here knows about","say the wrong name at the worst moment","text first and regret it by morning","kiss someone here just to see what happens","be the reason two people here stop speaking","leave with someone they only just met","read this and know it's about them"]
+    hot:["sleep with someone in this room tonight","send a nude to the wrong chat","get caught somewhere public","own a toy nobody here knows about","say the wrong name mid-way","sleep with an ex before the week is out","be into something they'd never admit","have already slept with someone everyone here knows","leave tonight with a stranger","be the loudest","lie about their number and get caught","catch feelings for someone they're only sleeping with"]
   },
   "would-you":{
     soft:[["Lose every photo you've ever taken","Lose every message you've ever sent"],["Never hear a new song again","Never see a new film again"],["Always be forty minutes early","Always be ten minutes late"],["Know exactly when you'll die","Know exactly how"]],
-    hot:[["Have every message you've sent read aloud","Have every photo on your phone shown"],["Know who in this room wants you","Have them know you want them"],["Sleep with someone here once and never speak again","Never, and stay close forever"],["Be caught by your parents","Be caught by your boss"],["Have your ex describe you in bed","Have your last partner rate you out of ten"],["Be forgiven for everything","Be remembered for everything"],["Only ever again with your first","Only ever again with a stranger"],["Have your search history read out","Have your voice notes played back"]]
+    hot:[["Have your ex rate you out of ten in public","Have your last partner describe it in detail"],["Sleep with someone here tonight and everyone finds out","Nobody ever knows, and it never happens"],["Give up sex for a year","Give up your phone for a year"],["Be walked in on by your parents","Walk in on them"],["Have every photo on your phone shown","Have every message you've sent read out"],["Only ever again with your first","Only ever again with strangers"],["Be the best they ever had and never see them again","Be forgettable and keep them forever"],["Know exactly who in this room wants you","Have every one of them know you want them"]]
   },
   "rate-them":{
     soft:["They're a 10 but they reply to every message with one word","They're a 10 but they arrive forty minutes late and bring nothing","They're a 10 but their playlist is three songs on loop","They're a 10 but they narrate every film while you watch it","They're a 10 but they've never once chosen the restaurant"],
-    hot:["They're a 10 but they talk the whole way through","They're a 10 but they won't return the favour","They're a 10 but they still have their ex's photos up","They're a 10 but they screenshot every conversation","They're a 10 but they finish in ninety seconds","They're a 10 but they've slept with your closest friend","They're a 10 but they check your phone while you shower","They're a 10 but they keep the dating apps installed","They're a 10 but they've never once said what they want","They're a 10 but they call you by the wrong name and don't notice","They're a 10 but they tell their group chat everything","They're a 10 but they'd leave if someone better texted"]
+    hot:["They're a 10 but they won't go down","They're a 10 but they finish in ninety seconds","They're a 10 but they're completely silent the whole time","They're a 10 but they call you by their ex's name","They're a 10 but they want it filmed every time","They're a 10 but they've slept with your sibling","They're a 10 but the lights stay off, always","They're a 10 but the socks stay on","They're a 10 but they have never once initiated","They're a 10 but they tell their group chat the details","They're a 10 but they check their phone halfway through","They're a 10 but they've never asked what you like","They're a 10 but they keep their ex's hoodie on the bed","They're a 10 but they want a running commentary from you"]
   }
 };
 
@@ -89,7 +90,7 @@ DECK.forEach(function(c,i){ c.id = i; });
 var stage  = document.getElementById("stage");
 var browse = document.getElementById("browse");
 var ROUNDS = 10;
-var S = { game:null, mode:null, round:0, purity:null, age:null };
+var S = { game:null, mode:null, round:0, purity:null, age:null, venue:null };
 
 /* Age gate. A self-declared threshold, not verification — it is the curation
    signal and the liability shield app stores and ad networks expect. No date of
@@ -99,6 +100,24 @@ function readAge(){ try { return localStorage.getItem(AGE_KEY); } catch(e){ retu
 function writeAge(v){ S.age = v; try { localStorage.setItem(AGE_KEY, v); } catch(e){} }
 function isAdult(){ return S.age === "adult"; }
 S.age = readAge();
+
+/* In person or online. A dare that says "kiss the person on your left" is
+   meaningless on a video call, so the venue selects a different dare list and
+   rewrites room references in the shared truths. Stored beside the age answer. */
+var VENUE_KEY = "party-engine-venue";
+function readVenue(){ try { return localStorage.getItem(VENUE_KEY); } catch(e){ return null; } }
+function writeVenue(v){ S.venue = v; try { localStorage.setItem(VENUE_KEY, v); } catch(e){} }
+function isOnline(){ return S.venue === "online"; }
+S.venue = readVenue();
+
+/* One bank, two venues: rather than duplicate 45 truths, room references are
+   rewritten at render time. */
+function venueText(t){
+  if(!isOnline() || typeof t !== "string") return t;
+  return t.replace(/in this room/gi, "on this call")
+          .replace(/in here\b/gi, "on this call")
+          .replace(/\bthis room\b/gi, "this call");
+}
 
 /* Soft prompts that are fine for adults but not for a 13-year-old. Filtered out
    rather than rewritten, so the adult experience is untouched. */
@@ -110,9 +129,10 @@ function teenOk(item){
 }
 function promptSet(slug, mode){
   var set = PROMPTS[slug][mode];
-  if(isAdult()) return set;
-  if(Array.isArray(set)) return set.filter(teenOk);
-  return { truth: set.truth.filter(teenOk), dare: set.dare.filter(teenOk) };
+  if(Array.isArray(set)) return isAdult() ? set : set.filter(teenOk);
+  var dare = (isOnline() && set.dareOnline) ? set.dareOnline : set.dare;
+  if(isAdult()) return { truth: set.truth, dare: dare };
+  return { truth: set.truth.filter(teenOk), dare: dare.filter(teenOk) };
 }
 
 function esc(s){ return String(s).replace(/[&<>"]/g, function(c){
@@ -145,7 +165,7 @@ function playing(on){ document.body.classList.toggle("playing", !!on); if(on) wi
 function renderGate(){
   playing(true);
   wash("255 46 116");
-  syncAgeChip();
+  syncChips();
   paint(
       '<div class="split anim-fade">'
     +   '<button class="panel dark" data-age="minor">'
@@ -166,19 +186,44 @@ function renderGate(){
   });
 }
 
-function syncAgeChip(){
-  var c = document.getElementById("agechip");
-  if(!S.age){ c.hidden = true; return; }
-  c.hidden = false;
-  c.textContent = isAdult() ? "18+" : "Under 18";
-  c.setAttribute("aria-label", "Age setting: " + c.textContent + ". Tap to change.");
+function syncChips(){
+  var a = document.getElementById("agechip");
+  if(!S.age){ a.hidden = true; } else {
+    a.hidden = false;
+    a.textContent = isAdult() ? "18+" : "Under 18";
+    a.setAttribute("aria-label", "Age setting: " + a.textContent + ". Tap to change.");
+  }
+  var v = document.getElementById("venuechip");
+  if(!S.venue){ v.hidden = true; } else {
+    v.hidden = false;
+    v.textContent = isOnline() ? "Online" : "In person";
+    v.setAttribute("aria-label", "Playing " + v.textContent + ". Tap to change.");
+  }
+}
+
+function renderVenue(){
+  playing(true);
+  wash("255 46 116");
+  syncChips();
+  paint(
+      '<div class="split anim-fade">'
+    +   '<button class="panel dark" data-venue="person"><span class="ico">\uD83C\uDFE0</span><span class="big">In person</span><span class="sub">One room, one phone. Dares you can actually do.</span></button>'
+    +   '<button class="panel hot" data-venue="online"><span class="ico">\uD83D\uDCBB</span><span class="big">Online</span><span class="sub">On a call. Camera and chat dares instead.</span></button>'
+    + '</div>'
+    + '<div class="orbadge"><i>or</i></div>'
+    + '<div class="hud"><div class="hudrow center">Where is everyone? \u2014 this decides which dares you get</div></div>'
+  );
+  Array.prototype.forEach.call(stage.querySelectorAll(".panel"), function(b){
+    b.addEventListener("click", function(){ writeVenue(b.getAttribute("data-venue")); renderBrowse(); });
+  });
 }
 
 /* ---------------- browse ---------------- */
 
 function renderBrowse(){
   if(!S.age) return renderGate();
-  syncAgeChip();
+  if(!S.venue) return renderVenue();
+  syncChips();
   playing(false);
   wash("255 46 116");
   stage.innerHTML = "";
@@ -226,7 +271,8 @@ function hud(doneRatio, left, right){
     + '<span class="n">'+esc(left)+'</span><span class="n">'+esc(right)+'</span></div></div>';
 }
 
-function paint(html){
+function paint(html, fill){
+  stage.classList.toggle("fill-hot", fill === "hot");
   stage.innerHTML = html;
   var q = stage.querySelector("[data-quit]");
   if(q) q.addEventListener("click", renderBrowse);
@@ -284,7 +330,7 @@ function renderSingle(){
   paint(
       '<div class="solo">'
     +   '<p class="eyebrow anim-up">'+esc(S.game.stem || S.game.name)+'</p>'
-    +   '<p class="'+askClass(text)+' anim-up d1">'+esc(text)+'</p>'
+    +   '<p class="'+askClass(text)+' anim-up d1">'+esc(venueText(text))+'</p>'
     +   '<button class="cta anim-up d2" data-next>Next →</button>'
     + '</div>' + roundHud()
   );
@@ -311,12 +357,12 @@ function revealPick2(t){
   paint(
       '<div class="solo">'
     +   '<p class="eyebrow anim-up">'+t+'</p>'
-    +   '<p class="'+askClass(text)+' anim-up d1">'+esc(text)+'</p>'
+    +   '<p class="'+askClass(text)+' anim-up d1">'+esc(venueText(text))+'</p>'
     +   '<div class="stack anim-up d2">'
     +     '<button class="cta" data-next>Next →</button>'
     +     '<button class="cta ghost" data-again>Other one</button>'
     +   '</div>'
-    + '</div>' + roundHud()
+    + '</div>' + roundHud(), t === "dare" ? "hot" : ""
   );
   stage.querySelector("[data-next]").addEventListener("click", nextRound);
   stage.querySelector("[data-again]").addEventListener("click", renderPick2);
@@ -327,8 +373,8 @@ function renderAB(){
   var pair = draw("wyr|" + S.mode, promptSet("would-you", S.mode));
   paint(
       '<div class="split anim-fade">'
-    +   '<button class="panel dark" data-i="0"><span class="big phrase">'+esc(pair[0])+'</span></button>'
-    +   '<button class="panel hot" data-i="1"><span class="big phrase">'+esc(pair[1])+'</span></button>'
+    +   '<button class="panel dark" data-i="0"><span class="big phrase">'+esc(venueText(pair[0]))+'</span></button>'
+    +   '<button class="panel hot" data-i="1"><span class="big phrase">'+esc(venueText(pair[1]))+'</span></button>'
     + '</div>'
     + '<div class="orbadge"><i>or</i></div>'
     + roundHud()
@@ -349,9 +395,9 @@ function renderRate(){
   paint(
       '<div class="solo">'
     +   '<p class="eyebrow anim-up">Rate them</p>'
-    +   '<p class="'+askClass(text)+' anim-up d1">'+esc(text)+'</p>'
+    +   '<p class="'+askClass(text)+' anim-up d1">'+esc(venueText(text))+'</p>'
     +   '<div class="rates anim-up d2">'+btns+'</div>'
-    + '</div>' + roundHud()
+    + '</div>' + roundHud(), S.mode === "hot" ? "hot" : ""
   );
   var row = stage.querySelector(".rates");
   Array.prototype.forEach.call(row.querySelectorAll(".rate"), function(b){
@@ -418,7 +464,7 @@ function purityStep(){
   paint(
       '<div class="solo">'
     +   '<p class="eyebrow anim-up">'+axis.glyph+' '+esc(axis.label)+'</p>'
-    +   '<p class="'+askClass(card.text)+' anim-up d1">'+esc(card.text)+'</p>'
+    +   '<p class="'+askClass(card.text)+' anim-up d1">'+esc(venueText(card.text))+'</p>'
     +   body
     + '</div>'
     + hud(p.asked.length / reachable, "Purity test", "Q" + (p.asked.length + 1))
@@ -489,18 +535,6 @@ function purityResult(){
   stage.querySelector("[data-again]").addEventListener("click", startPurity);
 }
 
-/* ---------------- deck table ---------------- */
-
-document.getElementById("deckTable").innerHTML = AXES.map(function(a){
-  var cards = DECK.filter(function(c){ return c.axis === a.id; });
-  var chains = {};
-  cards.forEach(function(c){ chains[c.chain] = 1; });
-  return '<tr><td>'+a.glyph+' '+esc(a.label)+'</td>'
-    + '<td class="n">'+Object.keys(chains).length+'</td>'
-    + '<td class="n">'+cards.length+'</td>'
-    + '<td class="n">'+axisMax(a.id)+'</td></tr>';
-}).join("");
-
 /* ---------------- chrome ---------------- */
 
 var banner = document.getElementById("banner");
@@ -520,15 +554,9 @@ document.getElementById("locale").addEventListener("click", function(){
   this.textContent = LOCALES[li];
   this.setAttribute("aria-label", "Locale: " + LOCALES[li]);
 });
-
-document.getElementById("theme").addEventListener("click", function(){
-  var r = document.documentElement, now = r.getAttribute("data-theme");
-  var dark = now ? now === "dark" : window.matchMedia("(prefers-color-scheme: dark)").matches;
-  r.setAttribute("data-theme", dark ? "light" : "dark");
-});
-
 document.getElementById("home").addEventListener("click", renderBrowse);
 document.getElementById("agechip").addEventListener("click", renderGate);
+document.getElementById("venuechip").addEventListener("click", renderVenue);
 
 renderBrowse();
 })();

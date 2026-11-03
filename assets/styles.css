@@ -14,25 +14,6 @@
   --body:"Instrument Sans","Helvetica Neue",system-ui,sans-serif;
   color-scheme:dark;
 }
-@media (prefers-color-scheme: light){
-  :root:not([data-theme="dark"]){
-    --ink:#140f1c; --ink-dim:#564e63; --ink-faint:#8b8397;
-    --ground:#f6f3f8; --raised:#ffffff; --line:#e3dee8;
-    --accent:#d4005a; --accent-ink:#ffffff; --accent-soft:#d4005a14;
-    --dark-panel:#140f1c;
-    --cool:#0f8f74; --eyebrow:#5b6f90;
-    color-scheme:light;
-  }
-}
-:root[data-theme="light"]{
-  --ink:#140f1c; --ink-dim:#564e63; --ink-faint:#8b8397;
-  --ground:#f6f3f8; --raised:#ffffff; --line:#e3dee8;
-  --accent:#d4005a; --accent-ink:#ffffff; --accent-soft:#d4005a14;
-  --dark-panel:#140f1c;
-  --cool:#0f8f74; --eyebrow:#5b6f90;
-  color-scheme:light;
-}
-
 *{box-sizing:border-box}
 html,body{height:100%}
 body{
@@ -171,6 +152,25 @@ body.playing .stage{display:block}
   padding:40px max(20px,env(safe-area-inset-left,0px)) 80px;
 }
 .solo .eyebrow{margin-bottom:14px}
+
+/* Tap Dare and the prompt screen arrives pink with a black button; tap Truth
+   and it stays dark with a pink one. The colour of the panel you pressed
+   follows you into the prompt — that continuity is most of why the original
+   feels like one movement instead of two screens. */
+.stage.fill-hot{background:var(--accent)}
+.stage.fill-hot .ask,
+.stage.fill-hot .score{color:#fff}
+.stage.fill-hot .eyebrow{color:rgb(255 255 255 / .72)}
+.stage.fill-hot .lede{color:rgb(255 255 255 / .78)}
+.stage.fill-hot .cta{background:var(--dark-panel);color:#fff}
+.stage.fill-hot .cta.ghost{background:transparent;color:#fff;border-color:rgb(255 255 255 / .4)}
+.stage.fill-hot .cta.ghost:hover{border-color:#fff}
+.stage.fill-hot .hudrow{color:rgb(255 255 255 / .7)}
+.stage.fill-hot .hudrow .quit{color:rgb(255 255 255 / .7)}
+.stage.fill-hot .hudrow .quit:hover{color:#fff}
+.stage.fill-hot .track{background:rgb(255 255 255 / .22)}
+.stage.fill-hot .track i{background:#fff}
+.stage.fill-hot .rate{color:#120b06}
 .ask{
   font-family:var(--display);font-weight:800;color:var(--ink);
   font-size:clamp(26px,5.6vw,60px);line-height:1.1;letter-spacing:-.035em;

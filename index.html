@@ -27,32 +27,15 @@
 <div class="bar">
   <button class="mark" id="home">PART<span>Y</span></button>
   <button class="chip" id="agechip" hidden>18+</button>
+  <button class="chip" id="venuechip" hidden>In person</button>
   <button class="chip" id="locale">EN</button>
-  <button class="chip" id="theme">Theme</button>
 </div>
 
 <div class="stage" id="stage"></div>
 
 <div class="wrap" id="browse"></div>
 
-<section class="notes" id="notes">
-  <h2>Phase 2 — what changed</h2>
-  <ul>
-    <li><b>The viewport is handed over.</b> Starting a game hides the page under it. The original keeps its nav, its install banner and 2,000 words of article scrolling beneath the game, which is the hole in its own attention trick.</li>
-    <li><b>Split screens are full-bleed.</b> Two colour fields, one word each at up to 96px, stacked on a phone and side by side from 640px, with the blurred "or" badge on the seam — measured off the original.</li>
-    <li><b>One decision per screen.</b> Prompts render at up to 60px in deliberate emptiness. The pull is scale and reduction, not density.</li>
-    <li><b>Motion is borrowed, not invented.</b> Fade 0.3s ease-out, fade-up from 1rem, pop from scale 0.75, a breathing glow behind results, panels at brightness 1.18 on hover and scale 0.98 on press.</li>
-    <li><b>Ambient hue tracks context.</b> The background wash re-tints per game, and per axis inside the purity run, so a category change is felt before it is read.</li>
-    <li><b>Age gate first.</b> One tap before anything else, remembered locally. Under 18 keeps Soft mode, sees Hot greyed to 30% the way the original styles its own disabled panels, and cannot open the Purity Test at all — that deck asks about sex, substances and police trouble, so softening it was never an option.</li>
-    <li><b>Fixes kept.</b> Banner closes and stays closed, demo walls restart, the score floors instead of rounding up, rating taps lock visibly.</li>
-  </ul>
-  <div class="scroller">
-    <table>
-      <thead><tr><th>Axis</th><th>Chains</th><th>Cards</th><th>Max loss</th></tr></thead>
-      <tbody id="deckTable"></tbody>
-    </table>
-  </div>
-</section>
+<!-- dev notes and deck table removed: internal changelog, not player content -->
 
 <div class="banner" id="banner" hidden>
   <p><strong>Get the app</strong> — 15 games, no round caps.</p>
