@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+
+<title>Party Engine</title>
+<meta name="description" content="Party games you can start playing in one tap. No account, no download, nothing stored. Truth or Dare, Never Have I Ever, Would You Rather and more.">
+<link rel="canonical" href="https://CHANGE-ME.example/">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Party Engine">
+<meta property="og:description" content="Party games you can start playing in one tap. No account, no download, nothing stored.">
+<meta property="og:url" content="https://CHANGE-ME.example/">
+<meta property="og:image" content="https://CHANGE-ME.example/og.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0a0812">
+
+<link rel="icon" href="/icon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/icon-180.png">
+<link rel="manifest" href="/site.webmanifest">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,700;12..96,800&family=Instrument+Sans:wght@400;500;600;700&display=swap">
+
+<link rel="stylesheet" href="/assets/reset.css">
+<link rel="stylesheet" href="/assets/styles.css">
+</head>
+<body>
+<div class="bar">
+  <button class="mark" id="home">PART<span>Y</span></button>
+  <button class="chip" id="agechip" hidden>18+</button>
+  <button class="chip" id="locale">EN</button>
+  <button class="chip" id="theme">Theme</button>
+</div>
+
+<div class="stage" id="stage"></div>
+
+<div class="wrap" id="browse"></div>
+
+<section class="notes" id="notes">
+  <h2>Phase 2 — what changed</h2>
+  <ul>
+    <li><b>The viewport is handed over.</b> Starting a game hides the page under it. The original keeps its nav, its install banner and 2,000 words of article scrolling beneath the game, which is the hole in its own attention trick.</li>
+    <li><b>Split screens are full-bleed.</b> Two colour fields, one word each at up to 96px, stacked on a phone and side by side from 640px, with the blurred "or" badge on the seam — measured off the original.</li>
+    <li><b>One decision per screen.</b> Prompts render at up to 60px in deliberate emptiness. The pull is scale and reduction, not density.</li>
+    <li><b>Motion is borrowed, not invented.</b> Fade 0.3s ease-out, fade-up from 1rem, pop from scale 0.75, a breathing glow behind results, panels at brightness 1.18 on hover and scale 0.98 on press.</li>
+    <li><b>Ambient hue tracks context.</b> The background wash re-tints per game, and per axis inside the purity run, so a category change is felt before it is read.</li>
+    <li><b>Age gate first.</b> One tap before anything else, remembered locally. Under 18 keeps Soft mode, sees Hot greyed to 30% the way the original styles its own disabled panels, and cannot open the Purity Test at all — that deck asks about sex, substances and police trouble, so softening it was never an option.</li>
+    <li><b>Fixes kept.</b> Banner closes and stays closed, demo walls restart, the score floors instead of rounding up, rating taps lock visibly.</li>
+  </ul>
+  <div class="scroller">
+    <table>
+      <thead><tr><th>Axis</th><th>Chains</th><th>Cards</th><th>Max loss</th></tr></thead>
+      <tbody id="deckTable"></tbody>
+    </table>
+  </div>
+</section>
+
+<div class="banner" id="banner" hidden>
+  <p><strong>Get the app</strong> — 15 games, no round caps.</p>
+  <button class="chip solid" id="bannerCta" style="flex:0 0 auto">Open</button>
+  <button class="x" id="bannerX" aria-label="Dismiss this banner">&times;</button>
+</div>
+<footer class="notes" style="padding-block:0 120px">
+  <p style="font-size:13px;color:var(--ink-faint);margin:0">
+    Nothing here is stored on a server. <a href="/privacy" style="color:var(--accent)">What we keep on your device</a>.
+  </p>
+</footer>
+
+<noscript>
+  <div style="max-width:620px;margin:0 auto;padding:40px 16px;color:#a9a0b4;font-family:system-ui,sans-serif">
+    <h1 style="color:#f6f2f8">Party Engine</h1>
+    <p>These games run entirely in your browser, so JavaScript has to be on. Nothing is sent to a server either way.</p>
+  </div>
+</noscript>
+
+<script src="/assets/app.js" defer></script>
+</body>
+</html>
